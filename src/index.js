@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import '@fontsource/kumbh-sans';
+import '@fontsource/kumbh-sans/400.css';
+import '@fontsource/kumbh-sans/700.css';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

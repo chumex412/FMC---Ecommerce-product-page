@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { 
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@layer base {
+  :root {
+    --primary-color: 255 125 26;
+    --pale-primary: 255 237 224;
+    --neutral-color: 29 32 37;
+    --neutral-dark-gray: 104 112 125;
+    --neutral-gray: 182 188 200;
+
+    /* Typography */
+    --lf-line-height: 120%; /* Large font lineheight */
+    --sf-line-height: 150%; /* small font lineheight */
+    --base-size: 0.85rem;
+    --type-scale: 1.05;
+    --main-text: calc(var(--base-size) * var(--type-scale));
+    --intro-text: calc(var(--main-text) * var(--type-scale));
+    --h4: calc(var(--intro-text) * var(--type-scale));
+    --h3: calc(var(--h4) * var(--type-scale));
+    --h2: calc(var(--h3) * var(--type-scale));
+    --h1: calc(var(--h2) * var(--type-scale));
+  }
+
+  @media screen and (min-width: 600px) {
+    :root {
+      --type-scale: 1.1;
+    }
+  }
+    
+  @media screen and (min-width: 768px) {}
+    
+  @media screen and (min-width: 992px) {
+    :root {
+      --type-scale: 1.2;
+    }
+  }
+}
+
+@layer components {
+
+}
