@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+  .nav-content {
+    grid-row-gap: 2.5rem;
+    row-gap: 2.5rem;
+  }
+
+  .nav-item a {
+    text-transform: capitalize;
+    font-size: theme('fontSize.base-md');
+    line-height: theme('lineHeight.lh-small');
+  }
+
+  .nav-item {
+    _margin-right: 1rem;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .nav-content {
+      grid-template-columns: auto 1fr auto;
+      -ms-grid-columns: auto 1fr auto;
+      grid-column-gap: 2.5rem;
+      column-gap: 2.5rem;
+    }
+  }
+}
