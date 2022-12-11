@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import { RouterProvider } from 'react-router-dom';
+import './styles/index.css';
+import { rootRouter } from './pages';
 import reportWebVitals from './reportWebVitals';
 
 import '@fontsource/kumbh-sans';
@@ -10,9 +11,11 @@ import '@fontsource/kumbh-sans/700.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+	<React.StrictMode>
+		<Suspense fallback={<div>Loading</div>}>
+				<RouterProvider router={rootRouter} />
+		</Suspense>
+	</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
