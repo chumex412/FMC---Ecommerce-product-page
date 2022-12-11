@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body { 
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: theme('fontFamily.kumbh-sans');
 }
 
 @layer base {
@@ -17,8 +17,9 @@ body {
     /* Typography */
     --lf-line-height: 120%; /* Large font lineheight */
     --sf-line-height: 150%; /* small font lineheight */
-    --base-size: 0.85rem;
+    --base-size: 0.8rem;
     --type-scale: 1.05;
+    --h5: calc(0.6rem * var(--type-scale));
     --main-text: calc(var(--base-size) * var(--type-scale));
     --intro-text: calc(var(--main-text) * var(--type-scale));
     --h4: calc(var(--intro-text) * var(--type-scale));
@@ -29,7 +30,7 @@ body {
 
   @media screen and (min-width: 600px) {
     :root {
-      --type-scale: 1.1;
+      --type-scale: 1.15;
     }
   }
     
@@ -37,11 +38,19 @@ body {
     
   @media screen and (min-width: 992px) {
     :root {
-      --type-scale: 1.2;
+      --type-scale: 1.25;
     }
   }
 }
 
 @layer components {
+  .container {
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
 
+  .img-fluid {
+    max-width: 100%;
+    height: auto; 
+  }
 }
