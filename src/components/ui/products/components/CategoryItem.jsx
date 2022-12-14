@@ -7,8 +7,8 @@ import '../styles/product.css';
 
 const CategoryItem = ({ id, discount, name, price, img }) => {
 	return (
-		<article className="product-card">
-			<div>
+		<article className="product-card overflow-hidden rounded-lg">
+			<div className="overflow-hidden md:h-auto">
 				<img src={img} className="img-fluid" alt={`Graphical illustration of ${name}`} />
 			</div>
 			<section className="product-content p-2">
