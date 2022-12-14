@@ -6,13 +6,13 @@ import '../styles/navbar.css';
 
 const NavLinks = () => {
 	return (
-		<ul className={`nav-list flex flex-col items-center gap-2 md:flex-row `}>
+		<ul className={`nav-list hidden flex-row items-center gap-6 md:flex `}>
 			{navLinks.map((link, indx) => {
 				return (
 					<li className="nav-item" key={indx + 1}>
 						<NavLink
 							to={link.path}
-							className={({ isActive, isPending }) =>
+							className={({ isActive }) =>
 								isActive ? 'text-base-md capitalize text-gray-200' : 'text-base-md capitalize text-gray-300'
 							}
 						>
