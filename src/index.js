@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
+import { AppProvider } from './context/ProductContext';
 import './styles/index.css';
 import { rootRouter } from './pages';
 import reportWebVitals from './reportWebVitals';
@@ -12,9 +13,11 @@ import '@fontsource/kumbh-sans/700.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<Suspense fallback={<div>Loading</div>}>
+		<AppProvider>
+			<Suspense fallback={<div>Loading</div>}>
 				<RouterProvider router={rootRouter} />
-		</Suspense>
+			</Suspense>
+		</AppProvider>
 	</React.StrictMode>
 );
 
