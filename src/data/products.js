@@ -37,17 +37,17 @@ export const sneakersProducts = [
 ];
 
 export function getProduct(id) {
-	return sneakersProducts.find((product) => product.id === id);
+	return { id, product: sneakersProducts.find((product) => product.id === id) };
 }
 
-const base = {
-	name: '',
-	brand: '',
-	price: '',
-	details: '',
-	image: '',
-	moreInfo: {
-		discount: '',
-		thumbnails: ['']
-	}
-};
+//const base = {
+//	name: '',
+//	brand: '',
+//	price: '',
+//	details: '',
+//	image: '',
+//	moreInfo: {
+//		discount: '',
+//		thumbnails: ['']
+//	}
+//};
