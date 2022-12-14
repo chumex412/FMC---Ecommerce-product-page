@@ -2,6 +2,8 @@
 
 @layer components {
   .nav-content {
+    grid-template-columns: 1fr auto;
+    -ms-grid-columns: 1fr auto;
     grid-row-gap: 2.5rem;
     row-gap: 2.5rem;
   }
@@ -14,6 +16,16 @@
 
   .nav-item {
     _margin-right: 1rem;
+  }
+
+  .cart-dropdown {
+    box-shadow: 0 10px 20px theme('colors.neutral / .2');
+    transition-duration: 0.3s;
+  }
+
+  .cart-list {
+    grid-template-columns: auto 1fr auto;
+    -ms-grid-columns: auto 1fr auto;
   }
 
   @media only screen and (min-width: 768px) {
