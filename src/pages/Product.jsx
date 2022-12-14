@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import NavBar from '../layout/navbar/NavBar';
-import { Product as SingleProduct } from '../components/ui/products';
+import useGlobalContext from '../context/ProductContext';
+import { ProductContainer } from '../components/container';
 import { getProduct } from '../data';
 
 export async function loader({ params }) {
@@ -9,21 +9,12 @@ export async function loader({ params }) {
 }
 
 const Product = () => {
-	const product = useLoaderData();
-	console.log(product);
+	const { id, product } = useLoaderData();
+	const { addToCart } = useGlobalContext();
+
 	return (
 		<>
-			<NavBar />
-			<main className="container">
-				<SingleProduct
-					name={product.name}
-					brand={product.brand}
-					images={product.images}
-					price={product.price}
-					detail={product.details}
-					discount={product.moreInfo.discount}
-				/>
-			</main>
+			<ProductContainer id={id} product={product} addToCart={addToCart} />
 		</>
 	);
 };
