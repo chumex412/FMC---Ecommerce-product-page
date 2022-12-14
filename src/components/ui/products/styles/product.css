@@ -12,10 +12,14 @@
   .single-product-wrapper {
     grid-template-columns: 1fr;
     -ms-grid-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
+    -ms-grid-rows: auto auto;
     grid-gap: 5rem;
     gap: 5rem;
+  }
+
+  .action-btn-container {
+    
   }
 
   @media only screen and (min-width: 768px) {
@@ -24,6 +28,10 @@
       -ms-grid-columns: 1fr 1fr;
       grid-template-rows: 1fr;
       -ms-grid-rows: 1fr;
+    }
+
+    .action-btn-container {
+      _grid-template-columns: 150px 1fr;
     }
   }
 }
