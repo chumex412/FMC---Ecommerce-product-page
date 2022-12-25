@@ -2,6 +2,20 @@
 
 This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6) to help improve my coding skills.
 
+## Overview
+
+### Screenshot
+
+![Base desktop view](https://res.cloudinary.com/da8vqkdmt/image/upload/v1671986946/Screen_Shot_2022-12-25_at_17.46.25_1_cictyz.png "Base desktop view")
+![Lightbox gallery](https://res.cloudinary.com/da8vqkdmt/image/upload/v1671986950/Screen_Shot_2022-12-25_at_17.46.33_1_c7wf3l.png "Lightbox gallery")
+![Desktop view Cart dropdown](https://res.cloudinary.com/da8vqkdmt/image/upload/v1671986947/Screen_Shot_2022-12-25_at_17.46.52_1_vt2kdm.png "Desktop view Cart dropdown")
+![Base mobile view](https://res.cloudinary.com/da8vqkdmt/image/upload/v1671986591/Screen_Shot_2022-12-24_at_19.34.08_jlicnr.png "Base mobile view")
+
+### Links
+
+- Solution URL: [https://chumex412.github.io/FMC---Ecommerce-product-page/product/3554f23ij785degcb95j128](https://chumex412.github.io/FMC---Ecommerce-product-page/product/3554f23ij785degcb95j128) 
+- Live URL: [https://chumex412.github.io/FMC---Ecommerce-product-page/](https://chumex412.github.io/FMC---Ecommerce-product-page/)
+
 ## My Process
 ### Built with
 
