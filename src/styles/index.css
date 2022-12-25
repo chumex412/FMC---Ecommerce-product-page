@@ -13,19 +13,23 @@ body {
     --neutral-color: 29 32 37;
     --neutral-dark-gray: 104 112 125;
     --neutral-gray: 182 188 200;
+    --light-gray: 247 248 253;
 
     /* Typography */
     --lf-line-height: 120%; /* Large font lineheight */
     --sf-line-height: 150%; /* small font lineheight */
     --base-size: 0.8rem;
     --type-scale: 1.05;
+    --fixed-type: 1.25;
     --h5: calc(0.6rem * var(--type-scale));
     --main-text: calc(var(--base-size) * var(--type-scale));
-    --intro-text: calc(var(--main-text) * var(--type-scale));
-    --h4: calc(var(--intro-text) * var(--type-scale));
-    --h3: calc(var(--h4) * var(--type-scale));
-    --h2: calc(var(--h3) * var(--type-scale));
-    --h1: calc(var(--h2) * var(--type-scale));
+    --intro-text: calc(var(--main-text) * var(--fixed-type));
+    --h4: calc(var(--intro-text) * var(--fixed-type));
+    --h3: calc(var(--h4) * var(--fixed-type));
+    --h2: calc(var(--h3) * var(--fixed-type));
+    --h1: calc(var(--h2) * var(--fixed-type));
+
+    --left-position: 0;
   }
 
   @media screen and (min-width: 600px) {
