@@ -22,7 +22,8 @@ module.exports = {
 				neutral: 'rgb(var(--neutral-color) / 1)',
 				gray: {
 					200: 'rgb(var(--neutral-gray) / 1)',
-					300: 'rgb(var(--neutral-dark-gray) / 1)'
+					300: 'rgb(var(--neutral-dark-gray) / 1)',
+					100: 'rgb(var(--light-gray) / 1)'
 				}
 			},
 			fontSize: {
