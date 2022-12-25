@@ -13,7 +13,7 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [https://chumex412.github.io/FMC---Ecommerce-product-page/product/3554f23ij785degcb95j128](https://chumex412.github.io/FMC---Ecommerce-product-page/product/3554f23ij785degcb95j128) 
+- Solution URL: [https://chumex412.github.io/FMC---Ecommerce-product-page/#/product/3554f23ij785degcb95j128](https://chumex412.github.io/FMC---Ecommerce-product-page/#/product/3554f23ij785degcb95j128) 
 - Live URL: [https://chumex412.github.io/FMC---Ecommerce-product-page/](https://chumex412.github.io/FMC---Ecommerce-product-page/)
 
 ## My Process
