@@ -5,7 +5,7 @@ import { Product } from '../../ui/products';
 
 const ProductContainer = ({ id, product, addToCart }) => {
 	return (
-		<main className="container">
+		<main className="container px-0 sm:px-4">
 			<Product
 				id={id}
 				name={product.name}

@@ -14,8 +14,8 @@
     -ms-grid-columns: 1fr;
     grid-template-rows: auto auto;
     -ms-grid-rows: auto auto;
-    grid-gap: 5rem;
-    gap: 5rem;
+    grid-gap: 1rem 5rem;
+    gap: 1rem 5rem;
   }
 
   .action-btn-container {

@@ -3,16 +3,19 @@ import PropTypes from 'prop-types';
 import ProductImgs from '../components/ProductImgs';
 import ProductDetails from './ProductDetails';
 import '../styles/product.css';
+import { useMediaQuery } from '../../../../hooks';
 
 const Product = ({ id, name, brand, images, detail, price, discount, addToCart = () => null }) => {
-	//const [singleImg, setSingleImg] = useState("");
+	const [singleImg, setSingleImg] = useState(images[0].img);
+	const [currentIndex, setCurrentIndex] = useState(0);
 	const [count, setCount] = useState(0);
 
-	//const handleImgChange = (id) => {
-	//	const newImg = images.find((imgItem) => imgItem.id === id);
-	//
-	//	setSingleImg(newImg.img);
-	//};
+	const [isLargeScreen] = useMediaQuery('(min-width: 600px)');
+
+	const handleImgChange = (index) => {
+		setSingleImg(images[index].img);
+		setCurrentIndex(index);
+	};
 
 	const updateCount = (action) => {
 		if (action === 'reset') {
@@ -30,8 +33,14 @@ const Product = ({ id, name, brand, images, detail, price, discount, addToCart =
 	};
 
 	return (
-		<section className="single-product-wrapper grid items-center py-20 px-0 md:px-12">
-			<ProductImgs images={images} img={images[0].img} />
+		<section className="single-product-wrapper grid items-center px-0 pb-20 sm:py-20 md:px-12">
+			<ProductImgs
+				images={images}
+				img={singleImg}
+				isLargeScreen={isLargeScreen}
+				onclick={handleImgChange}
+				current={currentIndex}
+			/>
 			<ProductDetails
 				id={id}
 				name={name}

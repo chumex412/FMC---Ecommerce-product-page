@@ -16,7 +16,7 @@ const ProductDetails = ({
 	addItem = () => null
 }) => {
 	return (
-		<article>
+		<article className="px-4 sm:px-0">
 			<h3 className="mb-3 text-base-md font-bold capitalize leading-lh-small text-primary">{brand}</h3>
 			<h4 className="mb-3 text-2xl font-bold capitalize leading-lh-small">{name}</h4>
 			<section>
