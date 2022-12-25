@@ -59,7 +59,7 @@ class NavAndCartToggler extends Component {
 }
 
 NavAndCartToggler.propTypes = {
-	component: PropTypes.element
+	component: PropTypes.any
 };
 
 export function withTogglerLayout(component) {
