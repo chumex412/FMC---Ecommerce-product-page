@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfmc_ecommerce_product_page=self.webpackChunkfmc_ecommerce_product_page||[]).push([[211],{211:function(e,c,n){n.r(c);var s=n(885),t=n(791),r=n(223),a=n(328),u=n(346),i=n(184);c.default=function(){var e=(0,t.useState)([]),c=(0,s.Z)(e,2),n=c[0],o=c[1];return(0,t.useEffect)((function(){o(u.hr)}),[]),(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(r.Z,{}),(0,i.jsx)("main",{className:"container",children:(0,i.jsx)("section",{className:"product-content",children:(0,i.jsx)(a.Q,{list:n})})})]})}}}]);
+//# sourceMappingURL=211.bc7b7b9c.chunk.js.map

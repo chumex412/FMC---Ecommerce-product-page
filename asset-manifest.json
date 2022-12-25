@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/FMC---Ecommerce-product-page/static/css/main.2e39c2e2.css",
+    "main.js": "/FMC---Ecommerce-product-page/static/js/main.aa464594.js",
+    "static/js/211.bc7b7b9c.chunk.js": "/FMC---Ecommerce-product-page/static/js/211.bc7b7b9c.chunk.js",
+    "static/js/787.6f4f9c35.chunk.js": "/FMC---Ecommerce-product-page/static/js/787.6f4f9c35.chunk.js",
+    "static/media/image-product-2.jpg": "/FMC---Ecommerce-product-page/static/media/image-product-2.c8bb0aaccecdebb16596.jpg",
+    "static/media/image-product-1.jpg": "/FMC---Ecommerce-product-page/static/media/image-product-1.520cc50bd13955f55cb2.jpg",
+    "static/media/image-product-3.jpg": "/FMC---Ecommerce-product-page/static/media/image-product-3.af5c71ba9ffcc0b8b54d.jpg",
+    "static/media/image-product-4.jpg": "/FMC---Ecommerce-product-page/static/media/image-product-4.9962862ef3eff6d65e5b.jpg",
+    "static/media/kumbh-sans-all-700-normal.woff": "/FMC---Ecommerce-product-page/static/media/kumbh-sans-all-700-normal.95cade729411637d84ae.woff",
+    "static/media/kumbh-sans-all-400-normal.woff": "/FMC---Ecommerce-product-page/static/media/kumbh-sans-all-400-normal.e0253ca5841b9b71dbbe.woff",
+    "static/media/kumbh-sans-latin-700-normal.woff2": "/FMC---Ecommerce-product-page/static/media/kumbh-sans-latin-700-normal.d6fba282e388ab5d379e.woff2",
+    "static/media/kumbh-sans-latin-400-normal.woff2": "/FMC---Ecommerce-product-page/static/media/kumbh-sans-latin-400-normal.dfc65e029412117c2157.woff2",
+    "static/media/kumbh-sans-latin-ext-700-normal.woff2": "/FMC---Ecommerce-product-page/static/media/kumbh-sans-latin-ext-700-normal.7fa0e4acf64abaf5cb0c.woff2",
+    "static/media/kumbh-sans-latin-ext-400-normal.woff2": "/FMC---Ecommerce-product-page/static/media/kumbh-sans-latin-ext-400-normal.3d314be3d2e7663083e4.woff2",
+    "static/media/logo.svg": "/FMC---Ecommerce-product-page/static/media/logo.f9fc2c6c280913a5918d149e5d2ce6be.svg",
+    "index.html": "/FMC---Ecommerce-product-page/index.html",
+    "static/media/icon-delete.svg": "/FMC---Ecommerce-product-page/static/media/icon-delete.1fd1f1f7d9f8ce5557b44ca3470a18b8.svg",
+    "static/media/icon-cart.svg": "/FMC---Ecommerce-product-page/static/media/icon-cart.e1c2fdcd9a64a25516df0950bb78c842.svg",
+    "static/media/icon-cart copy.svg": "/FMC---Ecommerce-product-page/static/media/icon-cart copy.0ab5ba240561d94d362947f37b4c7f3e.svg",
+    "static/media/icon-plus.svg": "/FMC---Ecommerce-product-page/static/media/icon-plus.776522cd732c7fc08811e282b8ba181e.svg",
+    "static/media/icon-minus.svg": "/FMC---Ecommerce-product-page/static/media/icon-minus.4289547f2bb55823bce88521dce0999a.svg",
+    "static/media/icon-close.svg": "/FMC---Ecommerce-product-page/static/media/icon-close.56a8f1dc165e9603af3272e16906a622.svg",
+    "static/media/icon-menu.svg": "/FMC---Ecommerce-product-page/static/media/icon-menu.c6107d03f1edcf73523ebd8cbc50a443.svg",
+    "main.2e39c2e2.css.map": "/FMC---Ecommerce-product-page/static/css/main.2e39c2e2.css.map",
+    "main.aa464594.js.map": "/FMC---Ecommerce-product-page/static/js/main.aa464594.js.map",
+    "211.bc7b7b9c.chunk.js.map": "/FMC---Ecommerce-product-page/static/js/211.bc7b7b9c.chunk.js.map",
+    "787.6f4f9c35.chunk.js.map": "/FMC---Ecommerce-product-page/static/js/787.6f4f9c35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e39c2e2.css",
+    "static/js/main.aa464594.js"
+  ]
+}
