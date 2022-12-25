@@ -1,6 +1,9 @@
 @tailwind components;
 
 @layer components {
+  .nav-bar {
+    z-index: 5;
+  }
   .nav-content {
     grid-template-columns: 1fr auto;
     -ms-grid-columns: 1fr auto;

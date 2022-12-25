@@ -6,7 +6,7 @@ import { currencyFormat } from '../../../util';
 const CartDropdown = ({ list = [], show = false, remove = () => null }) => {
 	return (
 		<section
-			className={`cart-dropdown absolute top-[110%] left-0 w-full rounded-lg border border-gray-100 bg-gray-100 py-2 transition-opacity sm:left-auto sm:right-0 sm:top-[85%] sm:max-w-[400px] ${
+			className={`cart-dropdown absolute top-[110%] left-0 z-10 w-full rounded-lg border border-gray-100 bg-gray-100 py-2 transition-opacity sm:left-auto sm:right-0 sm:top-[85%] sm:max-w-[400px] ${
 				show ? 'opacity-1 visible' : 'invisible opacity-0'
 			}`}
 		>
