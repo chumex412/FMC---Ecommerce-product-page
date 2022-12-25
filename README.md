@@ -7,7 +7,7 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 ### Screenshot
 
 ![Base desktop view](https://res.cloudinary.com/da8vqkdmt/image/upload/v1671986946/Screen_Shot_2022-12-25_at_17.46.25_1_cictyz.png "Base desktop view")
-![Lightbox gallery](https://res.cloudinary.com/da8vqkdmt/image/upload/v1671986950/Screen_Shot_2022-12-25_at_17.46.33_1_c7wf3l.png "Lightbox gallery")
+![Lightbox gallery](https://res.cloudinary.com/da8vqkdmt/image/upload/c_fit,w_1200/v1671986950/Screen_Shot_2022-12-25_at_17.46.33_1_c7wf3l.png "Lightbox gallery")
 ![Desktop view Cart dropdown](https://res.cloudinary.com/da8vqkdmt/image/upload/v1671986947/Screen_Shot_2022-12-25_at_17.46.52_1_vt2kdm.png "Desktop view Cart dropdown")
 ![Base mobile view](https://res.cloudinary.com/da8vqkdmt/image/upload/v1671986591/Screen_Shot_2022-12-24_at_19.34.08_jlicnr.png "Base mobile view")
 
